@@ -1,0 +1,84 @@
+/* Sidebar Styles */
+.sticky-sidebar {
+    position: sticky;
+    top: 100px;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+.card-title {
+    font-weight: 600;
+    color: #1f2937;
+}
+
+/* Search Box Sidebar */
+.search-box-sidebar {
+    margin-top: 10px;
+}
+
+.search-box-sidebar input {
+    border-radius: 10px;
+    border: 2px solid #e5e7eb;
+}
+
+/* Category Filter Styles */
+.category-filter {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    user-select: none;
+}
+
+.category-filter:hover {
+    background-color: #e9ecef;
+    transform: translateX(5px);
+}
+
+.category-filter.active {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    font-weight: 600;
+}
+
+/* Price Range Slider */
+.form-range::-webkit-slider-thumb {
+    background: var(--primary-color);
+}
+
+.form-range::-moz-range-thumb {
+    background: var(--primary-color);
+}
+
+/* Form Styles */
+.form-label {
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 2px solid #e5e7eb;
+    padding: 0.625rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(99, 102, 241, 0.25);
+}
+
+/* Sort Select */
+.form-select {
+    border-radius: 8px;
+    border: 2px solid #e5e7eb;
+    transition: all 0.3s ease;
+}
+
+.form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(99, 102, 241, 0.25);
+}
