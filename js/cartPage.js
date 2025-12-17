@@ -16,6 +16,7 @@ class CartPage {
                 </div>
             `;
             document.getElementById('checkoutBtn').disabled = true;
+            this.updateSummary();
             return;
         }
 

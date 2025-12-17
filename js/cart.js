@@ -44,6 +44,7 @@ class CartManager {
             } else {
                 this.saveToLocalStorage();
             }
+            this.updateCartCount();
         }
     }
 
@@ -51,6 +52,7 @@ class CartManager {
     removeItem(productId) {
         this.cart = this.cart.filter(item => item.id !== productId);
         this.saveToLocalStorage();
+        this.updateCartCount(); 
     }
 
     // Get cart items
